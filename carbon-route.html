@@ -74,6 +74,7 @@ the `carbon-route` will update `route.path`. This in-turn will update the
 
 @element carbon-route
 @demo demo/index.html
+@demo demo/data-loading-demo.html
 -->
 
 <script>
@@ -93,8 +94,8 @@ the `carbon-route` will update `route.path`. This in-turn will update the
 
       /**
        * The pattern of slash-separated segments to match `path` against.
-       * 
-       * For example the pattern "/foo" will match "/foo" or "/foo/bar" 
+       *
+       * For example the pattern "/foo" will match "/foo" or "/foo/bar"
        * but not "/foobar".
        *
        * Path segments like `/:named` are mapped to properties on the `data` object.
