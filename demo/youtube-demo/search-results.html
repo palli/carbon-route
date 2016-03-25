@@ -1,6 +1,6 @@
-<link rel="import" href="../../polymer/polymer.html">
-<link rel="import" href="../../paper-card/paper-card.html">
-<link rel="import" href="../../iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../../polymer/polymer.html">
+<link rel="import" href="../../../paper-card/paper-card.html">
+<link rel="import" href="../../../iron-flex-layout/iron-flex-layout.html">
 <dom-module id="search-results">
   <template>
     <style>
@@ -30,7 +30,7 @@
     <template is="dom-repeat" items="{{items}}" as="video">
       <!-- The '#' is included because the use-hash-as-path property is
       set to true in the carbon-location -->
-      <a href="./#/video/{{video.id}}">
+      <a href="../#/video/{{video.id}}">
         <paper-card image="{{video.thumbnail}}">
           <div class="card-content">
             {{video.title}}
